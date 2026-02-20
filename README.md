@@ -45,7 +45,17 @@ El proyecto también puede visualizarse directamente a través del enlace genera
 
 ```text
 /
+css
+    └── style.css
+img
+    ├── actualmente.webp
+    ├──banner1.jpg
+    ├──cecyt10.jpg
+    ├──contacto2.jpg
+    ├──escom.jpg
+    └── quiensoy1.jpg
+
 ├── index.html
-├── historia.html
-├── contacto.html
-└── style.css
+├── mihistoria.html
+└── contacto.html
+
