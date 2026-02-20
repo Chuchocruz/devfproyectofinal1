@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog personal</title>
+    <meta name="descripcio" content="Página web personal">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="prefetch" href="index.html" as="document">
+
+
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeJose</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="mihistoria.html" class="navegacion__enlace">Mi historia</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">
+                Blog personal de mi vida y mi historia academica.
+            </h2>
+            <p class="no-margin">J.J.C.G.</p>
+        </div>
+
+    </header>
+
+    <div class="contenedor contendio-principal">
+        <main class="blog">
+            <h3>Quien soy?</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/quiensoy.avif" alt="imagen blog">
+                    </picture>
+
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Un breve resumen sobre mi</h4>
+                    <p>Actualmente estoy terminando la carrera de sistemas computacionales en ESCOM, perteneciente al Instituto Politecnico Nacional, un poco de las cosas que me gusta hacer son dormir cuando se puede, jugar por las tardes-noches, ver peliculas los fines de semana, aprender cosas nuevas como este curso de Frontend y muchas otras cosas mas.</p>
+                    <a href="mihistoria.html" class="boton boton--primario">Clic aqui para saber mas..</a>
+                </div>
+            </article>
+
+            
+        </main>
+
+        <aside class="sidebar">
+            <h3>Un poco acerca de mi.</h3>
+            <ul class="no-padding">
+                <li class="widget-historia">
+                    <h4 class="no-margin">Mi nombre:</h4>
+                    <p class="widget-historia__label">Jose de Jesus Cruz Gonzalez</p>
+
+                    <p class="widget-historia__label">Edad: 25 años</p>
+                    
+                </li>
+
+                <li class="widget-historia">
+                    <h4 class="no-margin">A que me dedico?</h4>
+                    <p class="widget-historia__label">
+                        Entre semana estudiante de Ingenieria en sistemas computacionales y los fines de semana soy comerciante.
+                    </p>
+
+                </li>
+            </ul>
+
+        </aside>
+    </div>
+
+    <footer class="footer">
+
+        <br>
+        <p style="color: aliceblue;">Todos los derechos reservados </p>
+        <div class="contenedor">
+            <div class="barra">
+                
+
+                
+            </div>
+
+        </div>
+    </footer>
+
+</body>
